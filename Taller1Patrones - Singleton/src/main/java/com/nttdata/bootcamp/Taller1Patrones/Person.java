@@ -7,11 +7,6 @@ package com.nttdata.bootcamp.Taller1Patrones;
  *
  */
 public class Person {
-	
-	// ACLARACIÓN: Se que en la formación se dijo que debía de haber una clase Person y otra clase correspondiente
-	// a su Singleton, pero vi que eso no tenía sentido porque para hacer eso debo tener el constructor de Person
-	// público para que sea accesible y poder instanciarlo en otra clase. Con eso conseguimos que sí se pueda 
-	// instanciar y hacer un new en la clase Main. Por tanto, el singleton debe de ir en la misma clase Person.
 
 	/** Nombre de Person */
 	private String name;
